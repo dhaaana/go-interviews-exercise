@@ -7,4 +7,5 @@ import (
 
 func main() {
 	utils.PrintResult(solutions.ContainsDuplicate([]int{1, 2, 3, 1}))
+	utils.PrintResult(solutions.IsAnagram("race", "ecar"))
 }
