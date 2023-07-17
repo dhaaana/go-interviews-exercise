@@ -1,9 +1,5 @@
 package solutions
 
-import (
-	"go-interviews-exercise/utils"
-)
-
 // Problem: https://leetcode.com/problems/two-sum/
 // 1. Two Sum
 
@@ -28,7 +24,6 @@ func TwoSum(nums []int, target int) []int {
 
 	for i, num := range nums {
 		hashmap[target-num] = i
-		utils.PrintResult(hashmap)
 	}
 
 	for i, num := range nums {
