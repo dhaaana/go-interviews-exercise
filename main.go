@@ -10,4 +10,5 @@ func main() {
 	utils.PrintResult(solutions.IsAnagram("race", "ecar"))
 	utils.PrintResult(solutions.TwoSum([]int{2, 9, 11, 7, 15}, 9))
 	utils.PrintResult(solutions.GroupAnagram([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
+	utils.PrintResult(solutions.IsPalindromePointer("A man, a plan, a canal: Panama"))
 }
