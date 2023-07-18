@@ -41,7 +41,7 @@ func removeNonAlphanumeric(s string) string {
 	return sb.String()
 }
 
-func IsPalindromePointer(s string) bool {
+func PointerIsPalindrome(s string) bool {
 	s = strings.ToLower(s)
 	s = removeNonAlphanumeric(s)
 
@@ -49,7 +49,7 @@ func IsPalindromePointer(s string) bool {
 	l := 0
 	r := len(s) - 1
 
-	for l != r && r-l >= 0 {
+	for l < r {
 		if s[l] != s[r] {
 			return false
 		}
