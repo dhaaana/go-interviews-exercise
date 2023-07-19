@@ -12,4 +12,5 @@ func main() {
 	utils.PrintResult(solutions.GroupAnagram([]string{"eat", "tea", "tan", "ate", "nat", "bat"}))
 	utils.PrintResult(solutions.PointerIsPalindrome("A man, a plan, a canal: Panama"))
 	utils.PrintResult(solutions.TwoSumSorted([]int{2, 7, 11, 15}, 9))
+	utils.PrintResult(solutions.ThreeSum([]int{-2, 0, 0, 2, 2}))
 }
